@@ -8,12 +8,16 @@ function App() {
       </p>
       <h1>
         <abbr title="HyperText Markup Language">HTML</abbr> &
-        <abbr title="Cascading Style Sheets">CSS</abbr> foundations
+        <abbr title="Cascading Style Sheets"> CSS</abbr> foundations
       </h1>
       <p>
         These languages are the backbone of every website, defining structure,
-        content, and presentation. Greg Hooper
+        content, and presentation. 
       </p>
+      <div className="author-div">
+        <img src="assets/images/image-avatar.webp" alt="Greg Hooper"/>
+        <span>Greg Hooper</span>
+      </div>
     </main>
   );
 }
